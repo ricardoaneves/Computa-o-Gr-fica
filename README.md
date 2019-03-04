@@ -1,1 +1,2 @@
-# Computa-o-Gr-fica
+# Computer Graphics
+University of Minho

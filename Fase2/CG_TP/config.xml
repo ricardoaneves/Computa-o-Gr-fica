@@ -1,0 +1,109 @@
+<scene>
+
+    <group>
+        <translate X="-210" />
+        <scale X="12" Y="12" Z="12" />
+        <color R="1" G="1" B="0.2" />
+        <models>
+            <model file="sphere.3d" /> -- Sun
+        </models>
+    </group>
+
+    <group>
+        <translate X="-80" />
+        <scale X="0.15" Y="0.15" Z="0.15" />
+        <color R="0.8" G="0.8" B="0.9" />
+        <models>
+            <model file="sphere.3d" /> -- Mercury
+        </models>
+    </group>
+
+    <group>
+        <translate X="-65" />
+        <scale X="0.25" Y="0.25" Z="0.25" />
+        <color R="1" G="0.7" B="0.5" />
+        <models>
+            <model file="sphere.3d" /> -- Venus
+        </models>
+    </group>
+
+    <group>
+        <translate X="-45" />
+        <scale X="0.3" Y="0.3" Z="0.3" />
+        <color R="0.1" G="0.3" B="1" />
+        <models>
+            <model file="sphere.3d" /> -- Earth
+        </models>
+        <group>
+            <translate Y="8" Z="-7"/>
+            <scale X="0.15" Y="0.15" Z="0.15" />
+            <color R="1" G="1" B="1" />
+            <models>
+                <model file="sphere.3d" /> -- Moon
+            </models>
+        </group>
+    </group>
+
+    <group>
+        <translate X="-25" />
+        <scale X="0.2" Y="0.2" Z="0.2" />
+        <color R="1" G="0.6" B="0.3" />
+        <models>
+            <model file="sphere.3d" /> -- Mars
+        </models>
+    </group>
+
+    <group>
+        <translate X="40" />
+        <scale X="2" Y="2" Z="2" />
+        <color R="0.9" G="0.4" B="0.2" />
+        <models>
+            <model file="sphere.3d" /> -- Jupiter
+        </models>
+    </group>
+
+    <group>
+        <translate X="110" />
+        <scale X="2" Y="2" Z="2" />
+        <color R="1" G="0.9" B="0.9" />
+        <models>
+            <model file="sphere.3d" /> -- Saturn
+        </models>
+        <group>
+            <rotate X="1" angle="-10" />
+            <scale X="2" Y="0.02" Z="2" />
+            <color R="0.9" G="0.9" B="1" />
+            <models>
+                <model file="sphere.3d" /> -- Saturn Rings
+            </models>
+        </group>
+    </group>
+
+    <group>
+        <translate X="170" />
+        <scale X="1" Y="1" Z="1" />
+        <color R="0.2" G="0.4" B="1" />
+        <models>
+            <model file="sphere.3d" /> -- Uranus
+        </models>
+    </group>
+
+    <group>
+        <translate X="205" />
+        <scale X="0.75" Y="0.75" Z="0.75" />
+        <color R="0.4" G="0.6" B="1" />
+        <models>
+            <model file="sphere.3d" /> -- Neptune
+        </models>
+    </group>
+
+    <group>
+        <translate X="240" />
+        <scale X="0.1" Y="0.1" Z="0.1" />
+        <color R="0.7" G="0.8" B="1" />
+        <models>
+            <model file="sphere.3d" /> -- Pluto
+        </models>
+    </group>
+
+</scene>
